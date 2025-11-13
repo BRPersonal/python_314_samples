@@ -29,7 +29,7 @@ $ uv run print_demo.py
 $ uv add polars
 $ uv run polars_demo.py
 $ uv add playwright
-$uv run playwright_demo.py gave error that playwright was not installed.
+$ uv run playwright_demo.py gave error that playwright was not installed.
 I need to run the command within virtual environment
 $ venv
 (python-314-samples) $ playwright install 
@@ -42,4 +42,9 @@ $ uv run workflow_demo.py
 prefect seems to be not compatible with some libraries and python 3.14
 so dropping it
 $ uv remove prefect
+
+$ uv add httpx
+$ uv run httpx_demo.py
+
+
 
